@@ -7,11 +7,11 @@ root = Tk()
 root.withdraw()
 fold_path = filedialog.askdirectory(title="Select a folder")
 
-if fold_path:
-    print("Folder selected: ", fold_path)
 if not fold_path:
     print("Folder not selected")
+    sys.exit()
 
+print("Folder selected: ", fold_path)
 folder_path = Path(fold_path)
 
 CATEGORIES = {".jpg" : "Images",
