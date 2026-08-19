@@ -9,7 +9,7 @@ def main():
 
     for item in target_dir.iterdir():
         if item.is_file():
-            print(item.name)
+            print(item.name,"->", item.suffix)
 
 if __name__ == "__main__":
     main()
