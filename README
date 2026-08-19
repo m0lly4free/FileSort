@@ -1,0 +1,21 @@
+# FileSort (RU)
+
+FileSort - приложение для сортировки файлов в папки по категориям.
+
+## Возможности
+- сортировка файлов по категориям;
+- выбор папки через окно проводника;
+- защита от перезаписи файла;
+- добавление своих категорий для сортировки (пока только через код).
+
+----------------------------------------------------------------------
+
+# FileSort (EN)
+
+FileSort is an application for sorting files into folders by category.
+
+## Features
+- sorting files by category;
+- folder selection via the file explorer dialog;
+- protection against file overwriting;
+- adding custom sorting categories (currently only via code).
